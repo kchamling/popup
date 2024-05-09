@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Popup</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+      rel="stylesheet"
+    />
+    <script src="app.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+
+      <div class="popup" id="popup">
+        <img src="images/404-tick.png" />
+        <div class="popup-details">
+          <h1>Thank you!</h1>
+          <p>Your details have beeen successfully submittted. Thanks!</p>
+          <button type="submit" class="btn btn-ok" onclick="closePopup()">
+            Ok
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
