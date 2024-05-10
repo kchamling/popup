@@ -1,4 +1,4 @@
-# Popup Component Readme
+# Popup
 
 This repository contains a simple popup component built using HTML, CSS, and JavaScript. The popup component allows users to open and close a popup window by clicking on designated buttons.
 
