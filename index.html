@@ -6,23 +6,20 @@
     <title>Popup</title>
     <link rel="stylesheet" href="style.css" />
     <link
-      href="https://fonts.googleapis.com/css?family=Ubuntu:300,300italic,regular,italic,500,500italic,700,700italic"
+      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
       rel="stylesheet"
     />
     <script src="app.js" defer></script>
   </head>
   <body>
     <div class="container">
-      <button type="submit" class="btn" onclick="openPopup()">Submit</button>
-
-      <div class="popup" id="popup">
+      <button type="button">Submit</button>
+      <div class="popup">
         <img src="images/404-tick.png" />
         <div class="popup-details">
           <h1>Thank you!</h1>
-          <p>Your details have beeen successfully submittted. Thanks!</p>
-          <button type="submit" class="btn btn-ok" onclick="closePopup()">
-            Ok
-          </button>
+          <p>Your details have been successfully submitted. Thank you!</p>
+          <button type="button">Ok</button>
         </div>
       </div>
     </div>

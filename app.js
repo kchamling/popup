@@ -1,8 +1,17 @@
-const popup = document.querySelector("#popup");
+const openBtn = document.querySelector(".container button");
+const closeBtn = document.querySelector(".popup-details button");
+const popupBox = document.querySelector(".popup");
 
-function openPopup() {
-  popup.classList.add("open-popup");
+function showPopup() {
+  popupBox.classList.add("show-popup");
 }
 function closePopup() {
-  popup.classList.remove("open-popup");
+  popupBox.classList.remove("show-popup");
 }
+
+openBtn.addEventListener("click", () => {
+  showPopup();
+});
+closeBtn.addEventListener("click", () => {
+  closePopup();
+});
